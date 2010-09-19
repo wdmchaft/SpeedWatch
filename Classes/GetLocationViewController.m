@@ -49,6 +49,14 @@
 #import "GetLocationViewController.h"
 #import "LocationDetailViewController.h"
 #import "CLLocation (Strings).h"
+#include <HTTPRiot/HTTPRiot.h>
+#import "TFTextEntryCell.h"
+
+@interface GetLocationViewController (PrivateMethods)
+- (TFTextEntryCell *)createCell;
+- (void)checkText:(UITextView *)textView;
+@end
+
 
 @implementation GetLocationViewController
 
@@ -59,6 +67,25 @@
 @synthesize bestEffortAtLocation;
 @synthesize tableView;
 @synthesize stateString;
+@synthesize usernameCell; 
+@synthesize passwordCell;
+@synthesize tweetText;
+
+- (TFTextEntryCell *)createCell {
+	NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"TFTextEntryCell" owner:nil options:nil];
+	TFTextEntryCell *cell = [nib objectAtIndex:0];
+	cell.delegate = self;
+	cell.keyboardType = UIKeyboardTypeDefault;
+	cell.autocorrectionType = UITextAutocorrectionTypeNo;
+	cell.autocapitalizationType = UITextAutocapitalizationTypeNone;
+	cell.enablesReturnKeyAutomatically = YES;
+	cell.returnKeyType = UIReturnKeyNext;
+	return cell;
+}
+
+
+
+
 
 - (void)viewDidLoad {
     self.locationMeasurements = [NSMutableArray array];
@@ -69,11 +96,15 @@
  * All IBOutlets should be released by setting their property to nil in order to free up as much memory as possible. 
  * This is also a good place to release other variables that can be recreated when needed.
  */
+
 - (void)viewDidUnload {
+		
     self.startButton = nil;
     self.descriptionLabel = nil;
     self.stateString = nil;
     self.tableView = nil;
+	
+	
     // For the readonly properties, they must be released and set to nil directly.
     [setupViewController release];
     setupViewController = nil;
@@ -272,6 +303,8 @@
     switch (indexPath.section) {
         case 0: {
             // The cell for the status row uses the cell style "UITableViewCellStyleValue1", which has a label on the left side of the cell with left-aligned and black text; on the right side is a label that has smaller blue text and is right-aligned. An activity indicator has been added to the cell and is animated while the location manager is updating. The cell's text label displays the current state of the manager.
+			
+			
             static NSString * const kStatusCellID = @"StatusCellID";
             static NSInteger const kStatusCellActivityIndicatorTag = 2;
             UIActivityIndicatorView *activityIndicator = nil;

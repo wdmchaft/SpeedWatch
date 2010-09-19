@@ -49,6 +49,7 @@
 #import "TrackLocationViewController.h"
 #import "LocationDetailViewController.h"
 #import "CLLocation (Strings).h"
+#include <HTTPRiot/HTTPRiot.h>
 
 @implementation TrackLocationViewController
 

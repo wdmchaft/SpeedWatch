@@ -25,6 +25,17 @@
 		30AE778D0FB0924C000B9BFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AE778C0FB0924C000B9BFA /* CoreLocation.framework */; };
 		30AE77B20FB093C9000B9BFA /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AE77B10FB093C9000B9BFA /* SetupViewController.m */; };
 		30E6E8FA0FB4B4B600B1F677 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30E6E8F90FB4B4B600B1F677 /* ReadMe.txt */; };
+		41EDC22D1245894800CEC584 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EDC22C1245894800CEC584 /* MapKit.framework */; };
+		41EDC27312458B5700CEC584 /* Limit.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC27212458B5700CEC584 /* Limit.m */; };
+		41EDC2E21245996700CEC584 /* TFTextEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2E11245996700CEC584 /* TFTextEntryCell.m */; };
+		41EDC34612459B3F00CEC584 /* TFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC34512459B3F00CEC584 /* TFTextView.m */; };
+		41EDC35212459C6100CEC584 /* TFAppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC35112459C6100CEC584 /* TFAppHelpers.m */; };
+		41EDC3C61245A1E900CEC584 /* TFTweetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC3C51245A1E900CEC584 /* TFTweetController.m */; };
+		41EDC3CD1245A28800CEC584 /* TFActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC3CC1245A28800CEC584 /* TFActivityIndicator.m */; };
+		41EDC4001245A8E900CEC584 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41EDC3FF1245A8E900CEC584 /* MapViewController.xib */; };
+		41EDC4021245ADF000CEC584 /* about_us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EDC4011245ADF000CEC584 /* about_us.png */; };
+		41EDC48E1245B4E500CEC584 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC48D1245B4E500CEC584 /* MapViewController.m */; };
+		41EDC4C01245BB6800CEC584 /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC4BF1245BB6800CEC584 /* MapLocation.m */; };
 		CB6C7D5911D5492C00AC7FA8 /* bullseye.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6C7D5011D5492C00AC7FA8 /* bullseye.png */; };
 		CB6C7D5A11D5492C00AC7FA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6C7D5111D5492C00AC7FA8 /* Default.png */; };
 		CB6C7D5B11D5492C00AC7FA8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6C7D5211D5492C00AC7FA8 /* Icon-72.png */; };
@@ -64,6 +75,25 @@
 		30AE77B00FB093C9000B9BFA /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
 		30AE77B10FB093C9000B9BFA /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
 		30E6E8F90FB4B4B600B1F677 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		41EDC22C1245894800CEC584 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		41EDC27112458B5700CEC584 /* Limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Limit.h; sourceTree = "<group>"; };
+		41EDC27212458B5700CEC584 /* Limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Limit.m; sourceTree = "<group>"; };
+		41EDC2E01245996700CEC584 /* TFTextEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTextEntryCell.h; sourceTree = "<group>"; };
+		41EDC2E11245996700CEC584 /* TFTextEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTextEntryCell.m; sourceTree = "<group>"; };
+		41EDC34412459B3F00CEC584 /* TFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTextView.h; sourceTree = "<group>"; };
+		41EDC34512459B3F00CEC584 /* TFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTextView.m; sourceTree = "<group>"; };
+		41EDC35012459C6100CEC584 /* TFAppHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAppHelpers.h; sourceTree = "<group>"; };
+		41EDC35112459C6100CEC584 /* TFAppHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAppHelpers.m; sourceTree = "<group>"; };
+		41EDC3C41245A1E900CEC584 /* TFTweetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTweetController.h; sourceTree = "<group>"; };
+		41EDC3C51245A1E900CEC584 /* TFTweetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTweetController.m; sourceTree = "<group>"; };
+		41EDC3CB1245A28800CEC584 /* TFActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFActivityIndicator.h; sourceTree = "<group>"; };
+		41EDC3CC1245A28800CEC584 /* TFActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFActivityIndicator.m; sourceTree = "<group>"; };
+		41EDC3FF1245A8E900CEC584 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		41EDC4011245ADF000CEC584 /* about_us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_us.png; sourceTree = "<group>"; };
+		41EDC48C1245B4E500CEC584 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		41EDC48D1245B4E500CEC584 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		41EDC4BE1245BB6800CEC584 /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		41EDC4BF1245BB6800CEC584 /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CB6C7D5011D5492C00AC7FA8 /* bullseye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullseye.png; sourceTree = "<group>"; };
 		CB6C7D5111D5492C00AC7FA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -86,6 +116,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
 				30AE778D0FB0924C000B9BFA /* CoreLocation.framework in Frameworks */,
+				41EDC22D1245894800CEC584 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				41EDC27112458B5700CEC584 /* Limit.h */,
+				41EDC27212458B5700CEC584 /* Limit.m */,
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 				28216C950DB411BC00E5133A /* GetLocationViewController.h */,
 				28216C960DB411BC00E5133A /* GetLocationViewController.m */,
@@ -107,6 +140,20 @@
 				308CA1F70FB2504E0082C99D /* LocationDetailViewController.m */,
 				308CA2970FB25A390082C99D /* CLLocation (Strings).h */,
 				308CA2980FB25A390082C99D /* CLLocation (Strings).m */,
+				41EDC2E01245996700CEC584 /* TFTextEntryCell.h */,
+				41EDC2E11245996700CEC584 /* TFTextEntryCell.m */,
+				41EDC34412459B3F00CEC584 /* TFTextView.h */,
+				41EDC34512459B3F00CEC584 /* TFTextView.m */,
+				41EDC35012459C6100CEC584 /* TFAppHelpers.h */,
+				41EDC35112459C6100CEC584 /* TFAppHelpers.m */,
+				41EDC3C41245A1E900CEC584 /* TFTweetController.h */,
+				41EDC3C51245A1E900CEC584 /* TFTweetController.m */,
+				41EDC3CB1245A28800CEC584 /* TFActivityIndicator.h */,
+				41EDC3CC1245A28800CEC584 /* TFActivityIndicator.m */,
+				41EDC48C1245B4E500CEC584 /* MapViewController.h */,
+				41EDC48D1245B4E500CEC584 /* MapViewController.m */,
+				41EDC4BE1245BB6800CEC584 /* MapLocation.h */,
+				41EDC4BF1245BB6800CEC584 /* MapLocation.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -152,6 +199,7 @@
 				308C9FCF0FB0E2B40082C99D /* GetLocationSetupView.xib */,
 				308C9FCB0FB0E2B40082C99D /* TrackLocationView.xib */,
 				308C9FCD0FB0E2B40082C99D /* TrackLocationSetupView.xib */,
+				41EDC3FF1245A8E900CEC584 /* MapViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -163,6 +211,7 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 				30AE778C0FB0924C000B9BFA /* CoreLocation.framework */,
+				41EDC22C1245894800CEC584 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +219,7 @@
 		CB6C7D4F11D5492C00AC7FA8 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				41EDC4011245ADF000CEC584 /* about_us.png */,
 				CB6C7D6211D5493400AC7FA8 /* iTunesArtwork */,
 				CB6C7D5011D5492C00AC7FA8 /* bullseye.png */,
 				CB6C7D5111D5492C00AC7FA8 /* Default.png */,
@@ -251,6 +301,8 @@
 				CB6C7D6011D5492C00AC7FA8 /* Icon@2x.png in Resources */,
 				CB6C7D6111D5492C00AC7FA8 /* pin.png in Resources */,
 				CB6C7D6311D5493400AC7FA8 /* iTunesArtwork in Resources */,
+				41EDC4001245A8E900CEC584 /* MapViewController.xib in Resources */,
+				41EDC4021245ADF000CEC584 /* about_us.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +320,14 @@
 				30AE77B20FB093C9000B9BFA /* SetupViewController.m in Sources */,
 				308CA1F80FB2504E0082C99D /* LocationDetailViewController.m in Sources */,
 				308CA2990FB25A390082C99D /* CLLocation (Strings).m in Sources */,
+				41EDC27312458B5700CEC584 /* Limit.m in Sources */,
+				41EDC2E21245996700CEC584 /* TFTextEntryCell.m in Sources */,
+				41EDC34612459B3F00CEC584 /* TFTextView.m in Sources */,
+				41EDC35212459C6100CEC584 /* TFAppHelpers.m in Sources */,
+				41EDC3C61245A1E900CEC584 /* TFTweetController.m in Sources */,
+				41EDC3CD1245A28800CEC584 /* TFActivityIndicator.m in Sources */,
+				41EDC48E1245B4E500CEC584 /* MapViewController.m in Sources */,
+				41EDC4C01245BB6800CEC584 /* MapLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,13 +414,21 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "~/Library/SDKs/httpriot-0.6.10/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lhttpriot",
+					"-lxml2",
+					"-ObjC",
+					"-all_load",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
 			};
@@ -369,12 +437,20 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "~/Library/SDKs/httpriot-0.6.10/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = (
+					"-lhttpriot",
+					"-lxml2",
+					"-ObjC",
+					"-all_load",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
 			};

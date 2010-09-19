@@ -49,10 +49,18 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "SetupViewController.h"
+#include <HTTPRiot/HTTPRiot.h>
+#import "Limit.h"
+#import "TFTextView.h"
 
 @class LocationDetailViewController;
+@class TFTextEntryCell;
+
 
 @interface GetLocationViewController : UIViewController <SetupViewControllerDelegate, CLLocationManagerDelegate> {
+	TFTextEntryCell *usernameCell;
+	TFTextEntryCell *passwordCell;
+	TFTextView *tweetText;
     SetupViewController *setupViewController;
     UIButton *startButton;
     UILabel *descriptionLabel;
@@ -65,6 +73,9 @@
     LocationDetailViewController *locationDetailViewController;
 }
 
+@property (nonatomic, retain) TFTextEntryCell *usernameCell;
+@property (nonatomic, retain) TFTextEntryCell *passwordCell;
+@property (nonatomic, retain) IBOutlet TFTextView *tweetText;
 @property (nonatomic, retain, readonly) SetupViewController *setupViewController;
 @property (nonatomic, retain) IBOutlet UIButton *startButton;
 @property (nonatomic, retain) IBOutlet UILabel *descriptionLabel;
@@ -81,5 +92,10 @@
 - (void)setupViewController:(SetupViewController *)controller didFinishSetupWithInfo:(NSDictionary *)setupInfo;
 
 - (void)stopUpdatingLocation:(NSString *)state;
+
++ (void)postStatus:(NSString *)status 
+      withUsername:(NSString *)username
+          password:(NSString *)password
+          delegate:(id)aDelegate;
 
 @end

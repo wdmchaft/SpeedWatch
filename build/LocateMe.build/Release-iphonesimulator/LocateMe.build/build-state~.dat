@@ -1,0 +1,685 @@
+TLocateMe
+v7
+r0
+t306545991.609945
+cCheck dependencies
+cProcessInfoPlistFile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist Info.plist
+cCopyStringsFile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/Localizable.strings en.lproj/Localizable.strings
+cCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationView.xib
+cCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationSetupView.xib
+cCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationSetupView.xib
+cCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationView.xib
+cCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/MainWindow.xib
+cCpResource build/Release-iphonesimulator/LocateMe.app/ReadMe.txt ReadMe.txt
+cCpResource build/Release-iphonesimulator/LocateMe.app/bullseye.png images/bullseye.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Default.png images/Default.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Icon-72.png images/Icon-72.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Icon-Small-50.png images/Icon-Small-50.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Icon-Small.png images/Icon-Small.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Icon-Small@2x.png images/Icon-Small@2x.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Icon.png images/Icon.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/Icon@2x.png images/Icon@2x.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/pin.png images/pin.png
+cCpResource build/Release-iphonesimulator/LocateMe.app/iTunesArtwork iTunesArtwork
+cProcessPCH /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch.gch Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o /Users/bweikulrich/Development/SWTC/LocateMe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/AppDelegate.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/GetLocationViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/TrackLocationViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SetupViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationDetailViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CLLocation (Strings).o" "/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe normal i386
+cGenerateDSYMFile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+cTouch /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FF1000000000006B7E0
+t1282158577
+s440288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C6C2FEA00000000000001D0
+t1282158570
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.h
+c000000004C37A9F70000000000000BA3
+t1278716407
+s2979
+i<UIKit/UIKit.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m
+c000000004C37A9F70000000000000EE1
+t1278716407
+s3809
+i"AppDelegate.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).h
+c000000004C37A9F70000000000000B90
+t1278716407
+s2960
+i<CoreLocation/CoreLocation.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m
+c000000004C37A9F70000000000001301
+t1278716407
+s4865
+i"CLLocation (Strings).h"
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.h
+c000000004C37A9F70000000000001113
+t1278716407
+s4371
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"SetupViewController.h"
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m
+c000000004C37A9F70000000000004463
+t1278716407
+s17507
+i"GetLocationViewController.h"
+i"LocationDetailViewController.h"
+i"CLLocation (Strings).h"
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.h
+c000000004C37A9F70000000000000B1E
+t1278716407
+s2846
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m
+c000000004C37A9F7000000000000188E
+t1278716407
+s6286
+i"LocationDetailViewController.h"
+i"CLLocation (Strings).h"
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.h
+c000000004C37A9F70000000000001107
+t1278716407
+s4359
+i<UIKit/UIKit.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m
+c000000004C37A9F70000000000001BA7
+t1278716407
+s7079
+i"SetupViewController.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.h
+c000000004C37A9F700000000000010C0
+t1278716407
+s4288
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"SetupViewController.h"
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m
+c000000004C37A9F700000000000038EE
+t1278716407
+s14574
+i"TrackLocationViewController.h"
+i"LocationDetailViewController.h"
+i"CLLocation (Strings).h"
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/Prefix.pch
+c000000004AE63A0600000000000000B9
+t1256602118
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/ReadMe.txt
+c000000004C379C2C00000000000016FA
+t1278712876
+s5882
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/AppDelegate.o
+t1284853191
+s51320
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CLLocation (Strings).o
+t1284853191
+s14120
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/GetLocationViewController.o
+t1284853191
+s72876
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMe.LinkFileList
+c000000004C954DC50000000000000406
+t1284853189
+s1030
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationDetailViewController.o
+t1284853191
+s46264
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SetupViewController.o
+t1284853191
+s55172
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/TrackLocationViewController.o
+t1284853191
+s69936
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o
+t1284853191
+s6300
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app
+t1284853191
+s578
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM
+t1284853191
+s102
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Default.png
+t1284853189
+s9448
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Icon-72.png
+t1284853189
+s7973
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Icon-Small-50.png
+t1284853189
+s4835
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Icon-Small.png
+t1284853189
+s2561
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Icon-Small@2x.png
+t1284853189
+s5864
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Icon.png
+t1284853189
+s10414
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Icon@2x.png
+t1284853189
+s15936
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist
+t1284853189
+s793
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+t1284853191
+s67696
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/PkgInfo
+t1284853189
+s8
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/ReadMe.txt
+t1284853189
+s5882
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/bullseye.png
+t1284853189
+s4363
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/GetLocationSetupView.nib
+t1284853190
+s2668
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/GetLocationView.nib
+t1284853190
+s2455
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/Localizable.strings
+t1284853190
+s1110
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/MainWindow.nib
+t1284853190
+s2368
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/TrackLocationSetupView.nib
+t1284853190
+s2667
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/TrackLocationView.nib
+t1284853190
+s2363
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/iTunesArtwork
+t1284853189
+s5188
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/pin.png
+t1284853189
+s3989
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationSetupView.xib
+c000000004AE63A06000000000000508A
+t1256602118
+s20618
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationView.xib
+c000000004AE63A060000000000004E82
+t1256602118
+s20098
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/Localizable.strings
+c000000004AE63A060000000000000BAA
+t1256602118
+s2986
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/MainWindow.xib
+c000000004AE63A060000000000004C97
+t1256602118
+s19607
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationSetupView.xib
+c000000004AE63A06000000000000505D
+t1256602118
+s20573
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationView.xib
+c000000004AE63A060000000000004E53
+t1256602118
+s20051
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/iTunesArtwork
+c000000004C379B910000000000001444
+t1278712721
+s5188
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Default.png
+c000000004C379B9100000000000024E8
+t1278712721
+s9448
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-72.png
+c000000004C954C940000000000001F25
+t1284852884
+s7973
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small-50.png
+c000000004C954C6800000000000012E3
+t1284852840
+s4835
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small.png
+c000000004C954C600000000000000A01
+t1284852832
+s2561
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small@2x.png
+c000000004C954C5900000000000016E8
+t1284852825
+s5864
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon.png
+c000000004C95435200000000000028AE
+t1284850514
+s10414
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon@2x.png
+c000000004C954D8A0000000000003E40
+t1284853130
+s15936
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/bullseye.png
+c000000004C379B91000000000000110B
+t1278712721
+s4363
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/images/pin.png
+c000000004C379B910000000000000F95
+t1278712721
+s3989
+
+N/Users/bweikulrich/Development/SWTC/LocateMe/main.m
+c000000004C37A9F70000000000000AA9
+t1278716407
+s2729
+i<UIKit/UIKit.h>
+
+N/var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch.gch
+t1284853191
+s14896144
+
+NInfo.plist
+c000000004C954A7800000000000004A2
+t1284852344
+s1186
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies306545989#306545989#0(0"0(0#1#0"8602718752#0"0#
+
+CCompileC "build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CLLocation (Strings).o" "/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.066392
+e306545991.202151
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CLLocation (Strings).o
+x/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m306545991#306545991#0(0"0(0#0#75"/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m8604739008#2061"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c "/Users/bweikulrich/Development/SWTC/LocateMe/Classes/CLLocation (Strings).m" -o "/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CLLocation (Strings).o"0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/AppDelegate.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.062532
+e306545991.181500
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/AppDelegate.o
+x/Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m306545991#306545991#0(0"0(0#0#66"/Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m8606757312#2039"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c /Users/bweikulrich/Development/SWTC/LocateMe/Classes/AppDelegate.m -o /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/GetLocationViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.063192
+e306545991.333071
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/GetLocationViewController.o
+x/Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m306545991#306545991#0(0"0(0#0#80"/Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m8606929664#2067"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c /Users/bweikulrich/Development/SWTC/LocateMe/Classes/GetLocationViewController.m -o /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/GetLocationViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationDetailViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.065327
+e306545991.242600
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationDetailViewController.o
+x/Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m306545991#306545991#0(0"0(0#0#83"/Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m8606950272#2073"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c /Users/bweikulrich/Development/SWTC/LocateMe/Classes/LocationDetailViewController.m -o /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationDetailViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SetupViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.064545
+e306545991.245822
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SetupViewController.o
+x/Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m306545991#306545991#0(0"0(0#0#74"/Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m8608485216#2055"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c /Users/bweikulrich/Development/SWTC/LocateMe/Classes/SetupViewController.m -o /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SetupViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/TrackLocationViewController.o /Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.063863
+e306545991.317565
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/TrackLocationViewController.o
+x/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m306545991#306545991#0(0"0(0#0#82"/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m8602407520#2071"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c /Users/bweikulrich/Development/SWTC/LocateMe/Classes/TrackLocationViewController.m -o /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/TrackLocationViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o /Users/bweikulrich/Development/SWTC/LocateMe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545991.061821
+e306545991.151066
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o
+x/Users/bweikulrich/Development/SWTC/LocateMe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/bweikulrich/Development/SWTC/LocateMe/main.m306545991#306545991#0(0"0(0#0#51"/Users/bweikulrich/Development/SWTC/LocateMe/main.m8608195904#2017"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -include /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch -c /Users/bweikulrich/Development/SWTC/LocateMe/main.m -o /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationSetupView.xib
+s306545989.864945
+e306545990.365219
+r1
+xCompileXIB
+x/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationSetupView.xib
+o2010-09-18 18:39:50.215 Interface Builder Cocoa Touch Tool[1465:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@44"CompileXIB en.lproj/GetLocationSetupView.xib306545989#306545990#0(245"2010-09-18 18:39:50.215 Interface Builder Cocoa Touch Tool[1465:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#78"/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationSetupView.xib8604547680#629"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/GetLocationSetupView.nib /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationSetupView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationView.xib
+s306545989.865653
+e306545990.317824
+r1
+xCompileXIB
+x/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationView.xib
+o2010-09-18 18:39:50.174 Interface Builder Cocoa Touch Tool[1461:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@39"CompileXIB en.lproj/GetLocationView.xib306545989#306545990#0(245"2010-09-18 18:39:50.174 Interface Builder Cocoa Touch Tool[1461:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#73"/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationView.xib8610884928#619"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/GetLocationView.nib /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/GetLocationView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/MainWindow.xib
+s306545989.866266
+e306545990.332278
+r1
+xCompileXIB
+x/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/MainWindow.xib
+o2010-09-18 18:39:50.206 Interface Builder Cocoa Touch Tool[1463:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib306545989#306545990#0(245"2010-09-18 18:39:50.206 Interface Builder Cocoa Touch Tool[1463:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#68"/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/MainWindow.xib8607443264#609"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/MainWindow.nib /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationSetupView.xib
+s306545989.864289
+e306545990.359837
+r1
+xCompileXIB
+x/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationSetupView.xib
+o2010-09-18 18:39:50.217 Interface Builder Cocoa Touch Tool[1464:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@46"CompileXIB en.lproj/TrackLocationSetupView.xib306545989#306545990#0(245"2010-09-18 18:39:50.217 Interface Builder Cocoa Touch Tool[1464:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#80"/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationSetupView.xib8593779232#633"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/TrackLocationSetupView.nib /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationSetupView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationView.xib
+s306545989.863596
+e306545990.317667
+r1
+xCompileXIB
+x/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationView.xib
+o2010-09-18 18:39:50.174 Interface Builder Cocoa Touch Tool[1462:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@41"CompileXIB en.lproj/TrackLocationView.xib306545989#306545990#0(245"2010-09-18 18:39:50.174 Interface Builder Cocoa Touch Tool[1462:1903] CFPreferences: user home directory at file://localhost/Users/bweikulrich/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#75"/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationView.xib8601688832#623"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/TrackLocationView.nib /Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/TrackLocationView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCopyStringsFile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/Localizable.strings en.lproj/Localizable.strings
+s306545989.863006
+e306545990.020513
+r1
+xCopyStringsFile
+x/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj/Localizable.strings
+xen.lproj/Localizable.strings
+oen.lproj/Localizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@33"Copy en.lproj/Localizable.strings306545989#306545990#0(130"en.lproj/Localizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#73"/Users/bweikulrich/Development/SWTC/LocateMe/en.lproj/Localizable.strings8603364544#500"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary en.lproj/Localizable.strings --outdir /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/en.lproj0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Default.png images/Default.png
+s306545989.868487
+e306545989.883925
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Default.png
+ximages/Default.png
+lSLF07#2@23"Copy images/Default.png306545989#306545989#0(0"0(0#0#63"/Users/bweikulrich/Development/SWTC/LocateMe/images/Default.png8604470368#504"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Default.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Icon-72.png images/Icon-72.png
+s306545989.869958
+e306545989.886319
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Icon-72.png
+ximages/Icon-72.png
+lSLF07#2@23"Copy images/Icon-72.png306545989#306545989#0(0"0(0#0#63"/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-72.png8603130496#504"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-72.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Icon-Small-50.png images/Icon-Small-50.png
+s306545989.881673
+e306545989.887737
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Icon-Small-50.png
+ximages/Icon-Small-50.png
+lSLF07#2@29"Copy images/Icon-Small-50.png306545989#306545989#0(0"0(0#0#69"/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small-50.png8611160864#510"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small-50.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Icon-Small.png images/Icon-Small.png
+s306545989.883130
+e306545989.888855
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Icon-Small.png
+ximages/Icon-Small.png
+lSLF07#2@26"Copy images/Icon-Small.png306545989#306545989#0(0"0(0#0#66"/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small.png8608160992#507"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Icon-Small@2x.png images/Icon-Small@2x.png
+s306545989.884001
+e306545989.890150
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Icon-Small@2x.png
+ximages/Icon-Small@2x.png
+lSLF07#2@29"Copy images/Icon-Small@2x.png306545989#306545989#0(0"0(0#0#69"/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small@2x.png8607435872#510"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Icon-Small@2x.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Icon.png images/Icon.png
+s306545989.886429
+e306545989.891341
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Icon.png
+ximages/Icon.png
+lSLF07#2@20"Copy images/Icon.png306545989#306545989#0(0"0(0#0#60"/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon.png8606810880#501"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Icon.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/Icon@2x.png images/Icon@2x.png
+s306545989.887829
+e306545989.892656
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/Icon@2x.png
+ximages/Icon@2x.png
+lSLF07#2@23"Copy images/Icon@2x.png306545989#306545989#0(0"0(0#0#63"/Users/bweikulrich/Development/SWTC/LocateMe/images/Icon@2x.png8605652384#504"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/Icon@2x.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/ReadMe.txt ReadMe.txt
+s306545989.867040
+e306545989.881580
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/ReadMe.txt
+xReadMe.txt
+lSLF07#2@15"Copy ReadMe.txt306545989#306545989#0(0"0(0#0#55"/Users/bweikulrich/Development/SWTC/LocateMe/ReadMe.txt8603490880#496"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/ReadMe.txt /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/bullseye.png images/bullseye.png
+s306545989.867771
+e306545989.883044
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/bullseye.png
+ximages/bullseye.png
+lSLF07#2@24"Copy images/bullseye.png306545989#306545989#0(0"0(0#0#64"/Users/bweikulrich/Development/SWTC/LocateMe/images/bullseye.png8605348192#505"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/bullseye.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/iTunesArtwork iTunesArtwork
+s306545989.890242
+e306545989.908121
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/iTunesArtwork
+xiTunesArtwork
+lSLF07#2@18"Copy iTunesArtwork306545989#306545989#0(0"0(0#0#58"/Users/bweikulrich/Development/SWTC/LocateMe/iTunesArtwork8605472480#499"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/iTunesArtwork /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CCpResource build/Release-iphonesimulator/LocateMe.app/pin.png images/pin.png
+s306545989.888975
+e306545989.893793
+r1
+xCpResource
+xbuild/Release-iphonesimulator/LocateMe.app/pin.png
+ximages/pin.png
+lSLF07#2@19"Copy images/pin.png306545989#306545989#0(0"0(0#0#59"/Users/bweikulrich/Development/SWTC/LocateMe/images/pin.png8605568864#500"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/bweikulrich/Development/SWTC/LocateMe/images/pin.png /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+
+CGenerateDSYMFile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+s306545991.579568
+e306545991.607329
+r1
+xGenerateDSYMFile
+x/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM
+x/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+lSLF07#2@116"GenerateDSYMFile build/Release-iphonesimulator/LocateMe.app.dSYM build/Release-iphonesimulator/LocateMe.app/LocateMe306545991#306545991#0(0"0(0#0#96"/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe8610710624#408"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe -o /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM0#
+
+CLd /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe normal i386
+s306545991.333143
+e306545991.579426
+r1
+xLd
+x/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+xnormal
+xi386
+lSLF07#2@101"Link /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe306545991#306545991#0(0"0(0#0#0"8611312672#967"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -filelist /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe0#
+
+CProcessInfoPlistFile /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist Info.plist
+s306545989.859823
+e306545989.862938
+r1
+xProcessInfoPlistFile
+x/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist306545989#306545989#0(0"0(0#0#55"/Users/bweikulrich/Development/SWTC/LocateMe/Info.plist8606923616#495"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist0#
+
+CProcessPCH /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch.gch Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s306545990.365312
+e306545991.061745
+r1
+xProcessPCH
+x/var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch.gch
+xPrefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@21"Precompile Prefix.pch306545990#306545991#0(0"0(0#0#55"/Users/bweikulrich/Development/SWTC/LocateMe/Prefix.pch8606781344#1891"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator -I/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/include -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/bweikulrich/Development/SWTC/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -c /Users/bweikulrich/Development/SWTC/LocateMe/Prefix.pch -o /var/folders/7h/7hqVu4sKG3aICUXJ6JupEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ejiluiosgthevcboqxwbnxekmjcl/Prefix.pch.gch0#
+
+CTouch /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app
+s306545991.607396
+e306545991.609921
+r1
+xTouch
+x/Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app
+lSLF07#2@93"Touch /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app306545991#306545991#0(0"0(0#0#0"8610304672#293"    cd /Users/bweikulrich/Development/SWTC/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/bweikulrich/Development/SWTC/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+

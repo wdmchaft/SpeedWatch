@@ -49,10 +49,13 @@
 #import "AppDelegate.h"
 #import <CoreLocation/CoreLocation.h>
 
+
 @implementation AppDelegate
 
 @synthesize window;
 @synthesize tabBarController;
+@synthesize mapViewController;
+
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {

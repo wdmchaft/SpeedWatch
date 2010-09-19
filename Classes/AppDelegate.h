@@ -48,12 +48,18 @@
  
 #import <UIKit/UIKit.h>
 
+@class MapViewController;
+
+
+
 @interface AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     UITabBarController *tabBarController;
+	MapViewController *mapViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain) IBOutlet MapViewController *mapViewController;
 
 @end

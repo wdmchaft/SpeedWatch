@@ -46,6 +46,8 @@
  
  */
 
+
+#include <HTTPRiot/HTTPRiot.h>
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "SetupViewController.h"

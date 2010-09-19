@@ -1,0 +1,10 @@
+<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+<command-line>: warning: this is the location of the previous definition
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.m:13: error: redefinition of 'TFLogRect'
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.h:12: error: previous definition of 'TFLogRect' was here
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.m:18: error: redefinition of 'TFLogSize'
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.h:17: error: previous definition of 'TFLogSize' was here
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.m:24: error: redefinition of 'TFAlertWithMessageAndDelegate'
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.h:23: error: previous definition of 'TFAlertWithMessageAndDelegate' was here
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.m:36: error: redefinition of 'TFAlertWithErrorAndDelegate'
+/Users/bweikulrich/Development/SWTC/LocateMe/Classes/TFAppHelpers.h:35: error: previous definition of 'TFAlertWithErrorAndDelegate' was here
